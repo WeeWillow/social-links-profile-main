@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 375px;
+    width: 324px;
     height: auto;
 }
 
@@ -27,7 +27,8 @@ body{
 }
 
 .attribution a {
-    color: hsl(228, 71%, 68%);
+    color: hsl(228, 89%, 81%);
+    text-decoration: none;
 }
 
 /* the card */
@@ -38,7 +39,7 @@ body {
 
 .card {
     background: var(--greyDark);
-    padding: 1.8rem;
+    padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -49,12 +50,16 @@ body {
 .avatar {
     border-radius: 50%;
     width: 100px;
-    margin: auto;
+    margin: .5rem auto;
 }
 
 .card h3{
-    margin: 1rem 0 0 0;
+    margin: 1.8rem 0 0 0;
     font-size: 1.5rem;
+}
+
+p {
+    font-size: 14px;
 }
 
 p:nth-child(3) {
