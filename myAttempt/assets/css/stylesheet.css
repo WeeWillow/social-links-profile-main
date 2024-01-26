@@ -1,0 +1,80 @@
+/* typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root, button, h3 {
+    font-family: 'Inter', sans-serif;
+    color: var(--white);
+}
+
+body{
+    width: 375px;
+    height: auto;
+}
+
+/* Variables */
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --greyDark: hsl(0, 0%, 12%);
+    --offBlack: hsl(0, 0%, 8%);
+}
+
+/* Attribution*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 71%, 68%);
+}
+
+/* the card */
+body {
+    margin: 10vh auto;
+    background: var(--offBlack);
+}
+
+.card {
+    background: var(--greyDark);
+    padding: 1.8rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+}
+
+.card h3{
+    margin: 1rem 0 0 0;
+    font-size: 1.5rem;
+}
+
+p:nth-child(3) {
+    color: var(--green);
+    margin: .5rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button {
+    background: var(--grey);
+    border-radius: .5rem;
+    border: none;
+    color: var(--white);
+    padding: .9rem;
+    font-weight: bold;
+    margin: .5rem;
+}
+
+button:hover {
+background: var(--green);
+color: var(--offBlack);
+}
